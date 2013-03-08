@@ -7,6 +7,7 @@
 //
 
 #import "IWDTableViewController.h"
+#import "UIImageView+lazyloading.h"
 
 @interface IWDTableViewController ()
 

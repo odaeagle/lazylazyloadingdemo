@@ -7,6 +7,7 @@
 //
 
 #import "IWDCollectionViewController.h"
+#import "UIImageView+lazyloading.h"
 
 @interface IWDCollectionViewController ()
 

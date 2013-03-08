@@ -32,6 +32,8 @@
 		D336D4FA16EA7AB4007CA3AE /* IWDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D336D4F916EA7AB4007CA3AE /* IWDTableViewController.m */; };
 		D336D4FD16EA7AC4007CA3AE /* IWDCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D336D4FC16EA7AC4007CA3AE /* IWDCollectionViewController.m */; };
 		D336D4FF16EA7FE0007CA3AE /* androidIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D336D4FE16EA7FE0007CA3AE /* androidIcon.png */; };
+		D336D50516EA83D7007CA3AE /* UIImageView+lazyloading.m in Sources */ = {isa = PBXBuildFile; fileRef = D336D50416EA83D7007CA3AE /* UIImageView+lazyloading.m */; };
+		D336D50816EA868A007CA3AE /* IWDDataBank.m in Sources */ = {isa = PBXBuildFile; fileRef = D336D50716EA868A007CA3AE /* IWDDataBank.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,8 +78,10 @@
 		D336D4FB16EA7AC4007CA3AE /* IWDCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWDCollectionViewController.h; sourceTree = "<group>"; };
 		D336D4FC16EA7AC4007CA3AE /* IWDCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWDCollectionViewController.m; sourceTree = "<group>"; };
 		D336D4FE16EA7FE0007CA3AE /* androidIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = androidIcon.png; sourceTree = "<group>"; };
-		D336D50016EA8286007CA3AE /* UIImageView+receiptImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+receiptImage.h"; sourceTree = "<group>"; };
-		D336D50116EA8286007CA3AE /* UIImageView+receiptImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+receiptImage.m"; sourceTree = "<group>"; };
+		D336D50316EA83D7007CA3AE /* UIImageView+lazyloading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+lazyloading.h"; sourceTree = "<group>"; };
+		D336D50416EA83D7007CA3AE /* UIImageView+lazyloading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+lazyloading.m"; sourceTree = "<group>"; };
+		D336D50616EA868A007CA3AE /* IWDDataBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWDDataBank.h; sourceTree = "<group>"; };
+		D336D50716EA868A007CA3AE /* IWDDataBank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWDDataBank.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +128,6 @@
 		D336D4BB16EA6AA0007CA3AE /* LazyLoadingImageBlogPost */ = {
 			isa = PBXGroup;
 			children = (
-				D336D50016EA8286007CA3AE /* UIImageView+receiptImage.h */,
-				D336D50116EA8286007CA3AE /* UIImageView+receiptImage.m */,
 				D336D4FE16EA7FE0007CA3AE /* androidIcon.png */,
 				D336D4D216EA6AD7007CA3AE /* AFNetworking */,
 				D336D4C416EA6AA0007CA3AE /* IWDAppDelegate.h */,
@@ -136,6 +138,10 @@
 				D336D4F916EA7AB4007CA3AE /* IWDTableViewController.m */,
 				D336D4FB16EA7AC4007CA3AE /* IWDCollectionViewController.h */,
 				D336D4FC16EA7AC4007CA3AE /* IWDCollectionViewController.m */,
+				D336D50316EA83D7007CA3AE /* UIImageView+lazyloading.h */,
+				D336D50416EA83D7007CA3AE /* UIImageView+lazyloading.m */,
+				D336D50616EA868A007CA3AE /* IWDDataBank.h */,
+				D336D50716EA868A007CA3AE /* IWDDataBank.m */,
 			);
 			path = LazyLoadingImageBlogPost;
 			sourceTree = "<group>";
@@ -275,6 +281,8 @@
 				D336D4F216EA6AD8007CA3AE /* UIImageView+AFNetworking.m in Sources */,
 				D336D4FA16EA7AB4007CA3AE /* IWDTableViewController.m in Sources */,
 				D336D4FD16EA7AC4007CA3AE /* IWDCollectionViewController.m in Sources */,
+				D336D50516EA83D7007CA3AE /* UIImageView+lazyloading.m in Sources */,
+				D336D50816EA868A007CA3AE /* IWDDataBank.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
