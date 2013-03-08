@@ -31,6 +31,7 @@
 		D336D4F716EA6AF6007CA3AE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D336D4F616EA6AF6007CA3AE /* MainStoryboard.storyboard */; };
 		D336D4FA16EA7AB4007CA3AE /* IWDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D336D4F916EA7AB4007CA3AE /* IWDTableViewController.m */; };
 		D336D4FD16EA7AC4007CA3AE /* IWDCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D336D4FC16EA7AC4007CA3AE /* IWDCollectionViewController.m */; };
+		D336D4FF16EA7FE0007CA3AE /* androidIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D336D4FE16EA7FE0007CA3AE /* androidIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		D336D4F916EA7AB4007CA3AE /* IWDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWDTableViewController.m; sourceTree = "<group>"; };
 		D336D4FB16EA7AC4007CA3AE /* IWDCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWDCollectionViewController.h; sourceTree = "<group>"; };
 		D336D4FC16EA7AC4007CA3AE /* IWDCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWDCollectionViewController.m; sourceTree = "<group>"; };
+		D336D4FE16EA7FE0007CA3AE /* androidIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = androidIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		D336D4BB16EA6AA0007CA3AE /* LazyLoadingImageBlogPost */ = {
 			isa = PBXGroup;
 			children = (
+				D336D4FE16EA7FE0007CA3AE /* androidIcon.png */,
 				D336D4D216EA6AD7007CA3AE /* AFNetworking */,
 				D336D4C416EA6AA0007CA3AE /* IWDAppDelegate.h */,
 				D336D4C516EA6AA0007CA3AE /* IWDAppDelegate.m */,
@@ -244,6 +247,7 @@
 				D336D4F416EA6AD8007CA3AE /* LICENSE in Resources */,
 				D336D4F516EA6AD8007CA3AE /* README.md in Resources */,
 				D336D4F716EA6AF6007CA3AE /* MainStoryboard.storyboard in Resources */,
+				D336D4FF16EA7FE0007CA3AE /* androidIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
