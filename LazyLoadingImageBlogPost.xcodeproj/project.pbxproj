@@ -76,6 +76,8 @@
 		D336D4FB16EA7AC4007CA3AE /* IWDCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWDCollectionViewController.h; sourceTree = "<group>"; };
 		D336D4FC16EA7AC4007CA3AE /* IWDCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWDCollectionViewController.m; sourceTree = "<group>"; };
 		D336D4FE16EA7FE0007CA3AE /* androidIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = androidIcon.png; sourceTree = "<group>"; };
+		D336D50016EA8286007CA3AE /* UIImageView+receiptImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+receiptImage.h"; sourceTree = "<group>"; };
+		D336D50116EA8286007CA3AE /* UIImageView+receiptImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+receiptImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,8 @@
 		D336D4BB16EA6AA0007CA3AE /* LazyLoadingImageBlogPost */ = {
 			isa = PBXGroup;
 			children = (
+				D336D50016EA8286007CA3AE /* UIImageView+receiptImage.h */,
+				D336D50116EA8286007CA3AE /* UIImageView+receiptImage.m */,
 				D336D4FE16EA7FE0007CA3AE /* androidIcon.png */,
 				D336D4D216EA6AD7007CA3AE /* AFNetworking */,
 				D336D4C416EA6AA0007CA3AE /* IWDAppDelegate.h */,
