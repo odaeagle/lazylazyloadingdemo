@@ -48,10 +48,25 @@
     return 150;
 }
 
+-(BOOL) shouldDoJpeg
+{
+    NSNumber* value = [[NSUserDefaults standardUserDefaults] objectForKey:@"imagetype"];
+    return value.integerValue == 0;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    UIImageView* imageView = (UIImageView*)[cell viewWithTag:1000];
+    UILabel* textView = (UILabel*)[cell viewWithTag:1001];
+    
+    if( [self shouldDoJpeg]) {
+        textView.text = [NSString stringWithFormat:@"cell load jpeg %d",indexPath.row];
+    } else {
+        textView.text = [NSString stringWithFormat:@"cell load png "];
+    }
+    [imageView loadImage];
     
     return cell;
 }

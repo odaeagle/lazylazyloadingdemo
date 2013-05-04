@@ -45,6 +45,11 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)cv cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [cv dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
     cell.backgroundColor = [UIColor whiteColor];
+    
+    UIImageView* imageView = [cell viewWithTag:1000];
+    
+    [imageView loadImage];
+    
     return cell;
 }
 

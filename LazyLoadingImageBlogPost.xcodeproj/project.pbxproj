@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82D6382516FCDC5500F41CEB /* IWDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D6382416FCDC5500F41CEB /* IWDMainViewController.m */; };
+		82D6382816FCDD2500F41CEB /* IWDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D6382716FCDD2500F41CEB /* IWDSettingViewController.m */; };
 		D336D4B616EA6AA0007CA3AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D336D4B516EA6AA0007CA3AE /* UIKit.framework */; };
 		D336D4B816EA6AA0007CA3AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D336D4B716EA6AA0007CA3AE /* Foundation.framework */; };
 		D336D4BA16EA6AA0007CA3AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D336D4B916EA6AA0007CA3AE /* CoreGraphics.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82D6382316FCDC5500F41CEB /* IWDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWDMainViewController.h; sourceTree = "<group>"; };
+		82D6382416FCDC5500F41CEB /* IWDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWDMainViewController.m; sourceTree = "<group>"; };
+		82D6382616FCDD2500F41CEB /* IWDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWDSettingViewController.h; sourceTree = "<group>"; };
+		82D6382716FCDD2500F41CEB /* IWDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWDSettingViewController.m; sourceTree = "<group>"; };
 		D336D4B216EA6AA0007CA3AE /* LazyLoadingImageBlogPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyLoadingImageBlogPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D336D4B516EA6AA0007CA3AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D336D4B716EA6AA0007CA3AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -142,6 +148,10 @@
 				D336D50416EA83D7007CA3AE /* UIImageView+lazyloading.m */,
 				D336D50616EA868A007CA3AE /* IWDDataBank.h */,
 				D336D50716EA868A007CA3AE /* IWDDataBank.m */,
+				82D6382316FCDC5500F41CEB /* IWDMainViewController.h */,
+				82D6382416FCDC5500F41CEB /* IWDMainViewController.m */,
+				82D6382616FCDD2500F41CEB /* IWDSettingViewController.h */,
+				82D6382716FCDD2500F41CEB /* IWDSettingViewController.m */,
 			);
 			path = LazyLoadingImageBlogPost;
 			sourceTree = "<group>";
@@ -283,6 +293,8 @@
 				D336D4FD16EA7AC4007CA3AE /* IWDCollectionViewController.m in Sources */,
 				D336D50516EA83D7007CA3AE /* UIImageView+lazyloading.m in Sources */,
 				D336D50816EA868A007CA3AE /* IWDDataBank.m in Sources */,
+				82D6382516FCDC5500F41CEB /* IWDMainViewController.m in Sources */,
+				82D6382816FCDD2500F41CEB /* IWDSettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +409,7 @@
 				D336D4D116EA6AA0007CA3AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
