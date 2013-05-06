@@ -44,8 +44,8 @@
                             </label>
                             <segmentedControl opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="EsU-yH-o0z">
                                 <segments>
-                                    <segment title="JPEG"/>
-                                    <segment title="PNG"/>
+                                    <segment title="Small Image"/>
+                                    <segment title="Big Image"/>
                                 </segments>
                                 <connections>
                                     <action selector="onSeq:" destination="A20-jq-65L" eventType="valueChanged" id="gfB-rh-paY"/>

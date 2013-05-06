@@ -13,6 +13,6 @@
 
 -(void) setupImageReceiver;
 -(void) setImageUrl:(NSString*)url;
--(void) loadImage;
+-(void) loadImage:(BOOL)small;
 
 @end

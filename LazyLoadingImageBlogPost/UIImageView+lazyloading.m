@@ -34,12 +34,14 @@
     return value.integerValue == 0;
 }
 
--(void) loadImage
+-(void) loadImage:(BOOL)small
 {
     AFHTTPClient* client = [[AFHTTPClient alloc] init];
     client.operationQueue.maxConcurrentOperationCount = 1;
+    NSString* path = small? @"http://sourceforge.net/apps/phpbb/shareaza/download/file.php?avatar=82_1244941827.jpg" : @"http://www.digitaltrends.com/wp-content/uploads/2012/07/android-tethering.png";
     
-    NSMutableURLRequest* request = [client requestWithMethod:@"GET" path:@"http://www.digitaltrends.com/wp-content/uploads/2012/07/android-tethering.png" parameters:nil];
+    
+    NSMutableURLRequest* request = [client requestWithMethod:@"GET" path:path parameters:nil];
     
     AFHTTPRequestOperation *op = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     [op setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {

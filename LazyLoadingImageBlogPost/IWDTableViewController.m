@@ -48,7 +48,7 @@
     return 150;
 }
 
--(BOOL) shouldDoJpeg
+-(BOOL) shouldDoSmallImage
 {
     NSNumber* value = [[NSUserDefaults standardUserDefaults] objectForKey:@"imagetype"];
     return value.integerValue == 0;
@@ -61,12 +61,12 @@
     UIImageView* imageView = (UIImageView*)[cell viewWithTag:1000];
     UILabel* textView = (UILabel*)[cell viewWithTag:1001];
     
-    if( [self shouldDoJpeg]) {
-        textView.text = [NSString stringWithFormat:@"cell load jpeg %d",indexPath.row];
+    if( [self shouldDoSmallImage]) {
+        textView.text = [NSString stringWithFormat:@"cell load small image %d",indexPath.row];
     } else {
-        textView.text = [NSString stringWithFormat:@"cell load png "];
+        textView.text = [NSString stringWithFormat:@"cell load big image %d", indexPath.row];
     }
-    [imageView loadImage];
+    [imageView loadImage:[self shouldDoSmallImage]];
     
     return cell;
 }

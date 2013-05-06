@@ -36,6 +36,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(BOOL) shouldDoSmallImage
+{
+    NSNumber* value = [[NSUserDefaults standardUserDefaults] objectForKey:@"imagetype"];
+    return value.integerValue == 0;
+}
+
 #pragma mark - UICollectionView Datasource
 
 - (NSInteger)collectionView:(UICollectionView *)view numberOfItemsInSection:(NSInteger)section {
@@ -46,9 +52,9 @@
     UICollectionViewCell *cell = [cv dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
     cell.backgroundColor = [UIColor whiteColor];
     
-    UIImageView* imageView = [cell viewWithTag:1000];
+    UIImageView* imageView = (UIImageView*)[cell viewWithTag:1000];
     
-    [imageView loadImage];
+    [imageView loadImage:[self shouldDoSmallImage]];
     
     return cell;
 }
